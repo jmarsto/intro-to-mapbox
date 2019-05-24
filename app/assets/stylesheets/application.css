@@ -48,3 +48,24 @@
   margin-top: 60px;
   text-align: center;
 }
+
+
+.sub-head {
+  text-align: center;
+  text-decoration: underline;
+}
+
+#map {
+  position: relative;
+  height: 80vh;
+  width: 80%;
+  margin:auto;
+  margin-bottom: 50px;
+}
+
+.snippet {
+  margin: auto;
+  width: 80%;
+  position: relative;
+  margin-bottom: 60px;
+}

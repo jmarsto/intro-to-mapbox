@@ -7,11 +7,11 @@ import CodeSnippetOne from './CodeSnippetOne'
 const SlideTwo = props => {
   return(
     <div>
-      <div className="row">
-        <div className="small-6 columns">
+      <div>
+        <div>
           <MapTileOne />
         </div>
-        <div className="small-6 columns">
+        <div>
           <CodeSnippetOne />
         </div>
       </div>
