@@ -69,3 +69,15 @@
   position: relative;
   margin-bottom: 60px;
 }
+
+.nav-span {
+  margin-left: 50px;
+}
+
+.bottom-nav {
+  margin-left: 80px;
+}
+
+.action {
+  font-size: 40px;
+}

@@ -14,6 +14,11 @@ const SlideTwo = props => {
         <div>
           <CodeSnippetOne />
         </div>
+        <div>
+          <Link to='/map2' className="map-prompt">
+            <p>Next Map</p>
+          </Link>
+        </div>
       </div>
     </div>
   )
