@@ -4,4 +4,6 @@ Rails.application.routes.draw do
 
   get 'map1', to: 'homes#index'
   get 'map2', to: 'homes#index'
+  get 'map3', to: 'homes#index'
+  get 'map4', to: 'homes#index'
 end
