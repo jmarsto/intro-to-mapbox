@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class MapTileOne extends Component {
+class MapTileTwo extends Component {
   constructor(props) {
     super(props)
 
@@ -12,9 +12,11 @@ class MapTileOne extends Component {
 
     let map = new mapboxgl.Map({
       container: 'map',
-      style: 'mapbox://styles/mapbox/streets-v11',
+      style: 'mapbox://styles/mapbox/dark-v10',
       center: [-105.281551, 40.016561],
-      zoom: 15
+      zoom: 17,
+      pitch: 60,
+      bearing: 20
     });
   }
 
@@ -28,4 +30,4 @@ class MapTileOne extends Component {
   }
 }
 
-export default MapTileOne;
+export default MapTileTwo;
