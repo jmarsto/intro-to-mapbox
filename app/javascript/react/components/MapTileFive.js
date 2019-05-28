@@ -49,7 +49,7 @@ class MapTileFive extends Component {
           15, 0,
           15.05, ["get", "min_height"]
         ],
-        'fill-extrusion-opacity': .4
+        'fill-extrusion-opacity': .6
       }
       }, labelLayerId);
 

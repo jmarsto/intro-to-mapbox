@@ -7,4 +7,5 @@ Rails.application.routes.draw do
   get 'map3', to: 'homes#index'
   get 'map4', to: 'homes#index'
   get 'map5', to: 'homes#index'
+  get 'map6', to: 'homes#index'
 end

@@ -8,6 +8,7 @@ import SlideThree from './SlideThree'
 import SlideFour from './SlideFour'
 import SlideFive from './SlideFive'
 import SlideSix from './SlideSix'
+import SlideSeven from './SlideSeven'
 
 export const App = (props) => {
   return (
@@ -18,6 +19,7 @@ export const App = (props) => {
       <Route path='/map3' component={SlideFour} />
       <Route path='/map4' component={SlideFive} />
       <Route path='/map5' component={SlideSix} />
+      <Route path='/map6' component={SlideSeven} />
     </Router>
   )
 }
