@@ -1,25 +1,22 @@
 import React from 'react';
 import { Router, Route, IndexRoute, Link, browserHistory } from 'react-router';
 
-import MapTileSeven from './MapTileSeven'
-import CodeSnippetSeven from './CodeSnippetSeven'
+import MapTileEight from './MapTileEight'
+import CodeSnippetEight from './CodeSnippetEight'
 
-const SlideEight = props => {
+const SlideNine = props => {
   return(
     <div>
       <div>
         <div>
-          <MapTileSeven />
+          <MapTileEight />
         </div>
         <div>
-          <CodeSnippetSeven />
+          <CodeSnippetEight />
         </div>
         <div className="bottom-nav">
-          <Link to='/map6'>
+          <Link to='/map7'>
             <span className="nav-span">Back</span>
-          </Link>
-          <Link to='/map8'>
-            <span className="nav-span action">What can we do?</span>
           </Link>
         </div>
       </div>
@@ -27,4 +24,4 @@ const SlideEight = props => {
   )
 }
 
-export default SlideEight;
+export default SlideNine;

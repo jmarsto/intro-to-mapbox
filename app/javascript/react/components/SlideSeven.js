@@ -11,6 +11,7 @@ const SlideSeven = props => {
         <div>
           <MapTileSix />
         </div>
+        <p className="centered">Data from: <a href="https://bouldercolorado.gov/open-data/osmp-climbing-formations/" target="_blank">bouldercolorado.gov/open-data/osmp-climbing-formations/</a></p>
         <div>
           <CodeSnippetSix />
         </div>

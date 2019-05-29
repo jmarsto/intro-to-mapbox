@@ -10,6 +10,7 @@ import SlideFive from './SlideFive'
 import SlideSix from './SlideSix'
 import SlideSeven from './SlideSeven'
 import SlideEight from './SlideEight'
+import SlideNine from './SlideNine'
 
 export const App = (props) => {
   return (
@@ -22,6 +23,7 @@ export const App = (props) => {
       <Route path='/map5' component={SlideSix} />
       <Route path='/map6' component={SlideSeven} />
       <Route path='/map7' component={SlideEight} />
+      <Route path='/map8' component={SlideNine} />
     </Router>
   )
 }
