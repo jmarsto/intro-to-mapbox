@@ -10,7 +10,7 @@ class MapTileFive extends Component {
 
     mapboxgl.accessToken = 'pk.eyJ1Ijoiam1hcnN0b24iLCJhIjoiY2p3MWNmc2VoMDVuYzRhbzU0cWo0bzNxayJ9.yYUKns-0z7q7h7LTlelGWw';
 
-    var map = new mapboxgl.Map({
+    let map = new mapboxgl.Map({
       style: 'mapbox://styles/mapbox/satellite-streets-v10',
       center: [-105.281551, 40.016561],
       zoom: 19,
