@@ -19,7 +19,7 @@ const SlideFour = props => {
             <span className="nav-span">Back to Second Map</span>
           </Link>
           <Link to='/map4'>
-            <span className="nav-span action">Let's do it again, but better</span>
+            <span className="nav-span action">Let's do it again, but different</span>
           </Link>
         </div>
       </div>

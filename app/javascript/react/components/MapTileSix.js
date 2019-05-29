@@ -14,7 +14,7 @@ class MapTileSix extends Component {
 
     const { features } = OSMPData
 
-    var map = new mapboxgl.Map({
+    let map = new mapboxgl.Map({
       style: 'mapbox://styles/mapbox/satellite-streets-v9',
       center: [-105.285166, 39.980047],
       zoom: 14,
