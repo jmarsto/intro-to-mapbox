@@ -3,11 +3,11 @@
 ### Setup
 To clone this repository, run:
 
-`$ git clone https://github.com/jmarsto/partner-finder.git`
+`$ git clone https://github.com/jmarsto/intro-to-mapbox.git`
 
 cd into the repository:
 
-`$ cd partner-finder`
+`$ cd intro-to-mapbox`
 
 ### In action
 Run the following to install dependences:
@@ -23,8 +23,8 @@ Set up the database:
 
 Start the development server:
 
-`$ rails s`
-
 `$ yarn run start`
+
+`$ rails s`
 
 Launch http://localhost:3000/ in the browser.
